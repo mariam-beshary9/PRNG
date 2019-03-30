@@ -1,3 +1,6 @@
+/* This program is made by : Mariam Ahmad Amin Beshary 
+To : Generate a pseudo random number ranges between 0 and 1 */
+
 #include <iostream>
 #include <ctime>
 #include <cmath>
@@ -8,6 +11,7 @@ double PRNG ( double x )
 {
 
     double y;
+  // To make sure it's between 0  and 1
     y= ((sin(x)*sin(x)));
 	return y ;
 
